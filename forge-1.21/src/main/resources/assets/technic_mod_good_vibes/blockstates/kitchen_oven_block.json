@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "technic_mod_good_vibes:block/kitchen_oven_block" },
+    "facing=south": { "model": "technic_mod_good_vibes:block/kitchen_oven_block", "y": 180 },
+    "facing=west": { "model": "technic_mod_good_vibes:block/kitchen_oven_block", "y": 270 },
+    "facing=east": { "model": "technic_mod_good_vibes:block/kitchen_oven_block", "y": 90 },
+    "facing=up": { "model": "technic_mod_good_vibes:block/kitchen_oven_block", "x": -90 },
+    "facing=down": { "model": "technic_mod_good_vibes:block/kitchen_oven_block", "x": 90 }
+  }
+}

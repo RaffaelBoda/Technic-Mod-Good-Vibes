@@ -1,0 +1,9 @@
+{
+  "item.technic_mod_good_vibes.iron_wrench": "Iron Wrench",
+  "item.technic_mod_good_vibes.raw_lithium": "Raw Lithium",
+  "item.technic_mod_good_vibes.lithium_ingot": "Lithium Ingot",
+
+  "block.technic_mod_good_vibes.generator_block" : "Generator",
+  "block.technic_mod_good_vibes.kitchen_oven_block" : "Electric Oven",
+  "block.technic_mod_good_vibes.lithium_ore_block" : "Lithium Ore"
+}

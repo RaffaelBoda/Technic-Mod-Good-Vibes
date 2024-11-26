@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "technic_mod_good_vibes:item/raw_lithium"
+  }
+}
