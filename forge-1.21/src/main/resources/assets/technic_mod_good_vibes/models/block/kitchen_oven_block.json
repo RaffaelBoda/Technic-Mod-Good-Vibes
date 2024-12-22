@@ -1,9 +1,0 @@
-{
-  "parent": "minecraft:block/orientable",
-  "textures": {
-    "front": "technic_mod_good_vibes:block/kitchen_oven_front",
-    "side": "technic_mod_good_vibes:block/kitchen_oven_side",
-    "top": "technic_mod_good_vibes:block/kitchen_oven_side",
-    "bottom": "technic_mod_good_vibes:block/kitchen_oven_side"
-  }
-}

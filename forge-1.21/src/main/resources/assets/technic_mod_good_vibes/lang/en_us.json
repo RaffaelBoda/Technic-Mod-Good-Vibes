@@ -1,9 +1,22 @@
 {
-  "item.technic_mod_good_vibes.iron_wrench": "Iron Wrench",
+  "item.technic_mod_good_vibes.wrench": "Iron Wrench",
   "item.technic_mod_good_vibes.raw_lithium": "Raw Lithium",
   "item.technic_mod_good_vibes.lithium_ingot": "Lithium Ingot",
+  "item.technic_mod_good_vibes.raw_silicon": "Raw Silicon",
+  "item.technic_mod_good_vibes.silicon_ingot": "Silicon Ingot",
+  "item.technic_mod_good_vibes.coal_dust": "Coal Dust",
+  "item.technic_mod_good_vibes.refined_iron_ingot": "Refined Iron Ingot",
+  "item.technic_mod_good_vibes.control_circuit": "Control Circuit",
+  "item.technic_mod_good_vibes.small_battery": "Small Battery",
+  "item.technic_mod_good_vibes.mkiv_parts": "MKIV Parts",
+  "item.technic_mod_good_vibes.arc_reactor": "ARC Reactor",
+  "item.technic_mod_good_vibes.chainsaw": "Chainsaw",
+  "item.technic_mod_good_vibes.electric_drill": "Electric Drill",
+  "item.technic_mod_good_vibes.resin": "Resin",
+  "item.technic_mod_good_vibes.rubber": "Rubber",
 
-  "block.technic_mod_good_vibes.generator_block" : "Generator",
-  "block.technic_mod_good_vibes.kitchen_oven_block" : "Electric Oven",
-  "block.technic_mod_good_vibes.lithium_ore_block" : "Lithium Ore"
+  "block.technic_mod_good_vibes.lithium_ore_block" : "Lithium Ore",
+  "block.technic_mod_good_vibes.lithium_block" : "Lithium Block",
+  "block.technic_mod_good_vibes.silicon_ore_block" : "Silicon Ore",
+  "block.technic_mod_good_vibes.silicon_block" : "Silicon Block"
 }

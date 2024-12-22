@@ -19,15 +19,30 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, TechnicMod.MOD_ID);
 
-    public  static final RegistryObject<Block> KITCHEN_OVEN_BLOCK = registerBlock("kitchen_oven_block",
-            () -> new CustomBlock(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops()
+    public  static final RegistryObject<Block> LITHIUM_ORE_BLOCK = registerBlock("lithium_ore_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(3f,3f)
+                    .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
 
-    public  static final RegistryObject<Block> LITHIUM_ORE_BLOCK = registerBlock("lithium_ore_block",
-            () -> new CustomBlock(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops()
+    public  static final RegistryObject<Block> SILICON_ORE_BLOCK = registerBlock("silicon_ore_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(3f, 3f)
+                    .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
+
+    public  static final RegistryObject<Block> LITHIUM_BLOCK = registerBlock("lithium_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(3f,3f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+    public  static final RegistryObject<Block> SILICON_BLOCK = registerBlock("silicon_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(3f,3f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock (String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

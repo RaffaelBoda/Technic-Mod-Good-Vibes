@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "technic_mod_good_vibes:block/lithium_ore_block"
-  }
-}

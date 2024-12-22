@@ -50,14 +50,37 @@ public class TechnicMod
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
 
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.Wrench);
+
+            //Tools----------------------------------------------------------------------------------------------------
+            event.accept(ModItems.WRENCH);
+            event.accept(ModItems.CHAINSAW);
+            event.accept(ModItems.ELECTRIC_DRILL);
+
+            //Custom Ores----------------------------------------------------------------------------------------------
             event.accept(ModItems.LITHIUM_INGOT);
             event.accept(ModItems.RAW_LITHIUM);
+            event.accept(ModItems.SILICON_INGOT);
+            event.accept(ModItems.RAW_SILICON);
+            event.accept(ModItems.COAL_DUST);
+            event.accept(ModItems.CONTROL_CIRCUIT);
+            event.accept(ModItems.SMALL_BATTERY);
+            event.accept(ModItems.MKIV_PARTS);
+            event.accept(ModItems.ARC_REACTOR);
+            event.accept(ModItems.RESIN);
+            event.accept(ModItems.RUBBER);
+
+            event.accept(ModItems.REFINED_IRON);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.KITCHEN_OVEN_BLOCK);
+            //Custom Ore Blocks
             event.accept(ModBlocks.LITHIUM_ORE_BLOCK);
+            event.accept(ModBlocks.LITHIUM_BLOCK);
+            event.accept(ModBlocks.SILICON_ORE_BLOCK);
+            event.accept(ModBlocks.SILICON_BLOCK);
+
+            //Custom Machine Blocks
+
         }
     }
 
